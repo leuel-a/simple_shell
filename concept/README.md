@@ -8,8 +8,8 @@ After a new child process is created, both processes will execute the next instr
 following the fork() system call. A child process uses the same pc(program counter), 
 same CPU registers, same open files which use in the parent process.</p>
 <pre>
-       #include <sys/types.h>
-       #include <unistd.h>
+#include <sys/types.h>
+#include <unistd.h>
 
-       pid_t fork(void)
+pid_t fork(void)
 </pre>
