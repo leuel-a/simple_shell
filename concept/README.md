@@ -1,1 +1,1 @@
-<h1>Concept page for the UNIX command line interpreter</h1>
+<h1>Concept for the UNIX command line interpreter</h1>
