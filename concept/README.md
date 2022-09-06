@@ -9,7 +9,7 @@ following the fork() system call. A child process uses the same pc(program count
 same CPU registers, same open files which use in the parent process.</p>
 <pre>
 SYNOPSIS
-       #include <sys/types.h>
+       #include \<sys/types.h\>
        #include <unistd.h>
 
        pid_t fork(void)
