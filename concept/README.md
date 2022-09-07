@@ -1,6 +1,7 @@
 <h1>Concept for the UNIX command line interpreter</h1>
 <h2>Process in UNIX</h2>
-<p>A process is an instance of an executing program. </p>
+<p>A process is an instance of an executing program. A program is any executable file held in storage on your machine. 
+Anytime you run a program, you have created a process.</p>
 <h3>fork()</h3>
 <p>Fork system call is used for creating a new process, which is called child process, 
 which runs <b><i>concurrently</i></b> with the process that makes the fork() call (parent process). 
