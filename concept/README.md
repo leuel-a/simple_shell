@@ -9,12 +9,12 @@ After a new child process is created, both processes will execute the next instr
 following the fork() system call. A child process uses the same pc(program counter), 
 same CPU registers, same open files which use in the parent process.</p>
 <pre>
-/**
-* fork() - creates a child processthat will run con-currently with the parent process
-*
-* Return: On success, the PID of the child proces is returned in the parent, and 0 is returned in the child.
-* On faliure, -1 is returned in the parent, no child process is created, and errno is set appropriately.
-*/
+/&#42&#42
+&#42 fork() - creates a child processthat will run con-currently with the parent process
+&#42
+&#42 Return: On success, the PID of the child proces is returned in the parent, and 0 is returned in the child.
+&#42 On faliure, -1 is returned in the parent, no child process is created, and errno is set appropriately.
+&#42/
 
 <b>SYNOPSIS</b><br>
 	#include &ltsys/types.h&gt
