@@ -17,7 +17,7 @@ same CPU registers, same open files which use in the parent process.</p>
 &#42/
 
 <b>SYNOPSIS</b><br>
-	#include &ltsys/types.h&gt
-	#include &ltunistd.h&gt<br>
-	pid_t fork(void)<br>
+&#9#include &ltsys/types.h&gt
+&#9#include &ltunistd.h&gt<br>
+&#9pid_t fork(void)<br>
 </pre>
