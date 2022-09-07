@@ -10,7 +10,13 @@
  */
 int main(void)
 {
-	/*int id = fork();*/
-	printf("Hello World\n");
+	int id = fork();
+	if (id == 0)
+	{
+		printf("Child process\n");
+	} else
+	{
+		printf("Main process\n");
+	}
 	return (0);
 }
