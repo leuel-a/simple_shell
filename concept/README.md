@@ -10,9 +10,9 @@ following the fork() system call. A child process uses the same pc(program count
 same CPU registers, same open files which use in the parent process.</p>
 <pre>
 /**
-** fork() - creates a child processthat will run con-currently with the parent process
-**
-** Return: On success, the PID of the child proces is returned in the parent, and 0 is returned in the child.
+* fork() - creates a child processthat will run con-currently with the parent process
+*
+* Return: On success, the PID of the child proces is returned in the parent, and 0 is returned in the child.
 On faliure, -1 is returned in the parent, no child process is created, and errno is set appropriately.
 **/
 
