@@ -12,6 +12,5 @@ same CPU registers, same open files which use in the parent process.</p>
 	#include &ltsys/types.h&gt
 	#include &ltunistd.h&gt<br>
 	pid_t fork(void)
-</pre>
-<pre><b>RETURN VALUE</b>On success, the PID of the child process is returned in the parent, and 0 is returned in the child. 
+<b>RETURN VALUE:</b> On success, the PID of the child process is returned in the parent, and 0 is returned in the child. 
 On failure, -1 is returned in the parent, no child process is created, and errno is set appropriately.</pre>
