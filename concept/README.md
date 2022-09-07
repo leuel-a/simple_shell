@@ -8,7 +8,7 @@ which runs <b><i>concurrently</i></b> with the process that makes the fork() cal
 After a new child process is created, both processes will execute the next instruction 
 following the fork() system call. A child process uses the same pc(program counter), 
 same CPU registers, same open files which use in the parent process.</p>
-<b>SYNOPSIS</b><br>
+<br><b>SYNOPSIS</b><br>
 <pre>
 /&#42&#42
 &#42 fork() - creates a child processthat will run con-currently with the parent process
