@@ -15,9 +15,8 @@ same CPU registers, same open files which use in the parent process.</p>
 &#42 Return: On success, the PID of the child proces is returned in the parent, and 0 is returned in the child.
 &#42 On faliure, -1 is returned in the parent, no child process is created, and errno is set appropriately.
 &#42/
-
+</pre>
 <b>SYNOPSIS</b><br>
 &#9#include &ltsys/types.h&gt
 &#9#include &ltunistd.h&gt<br>
 &#9pid_t fork(void)<br>
-</pre>
