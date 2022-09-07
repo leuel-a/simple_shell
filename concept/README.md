@@ -8,6 +8,7 @@ which runs <b><i>concurrently</i></b> with the process that makes the fork() cal
 After a new child process is created, both processes will execute the next instruction 
 following the fork() system call. A child process uses the same pc(program counter), 
 same CPU registers, same open files which use in the parent process.</p>
+<b>SYNOPSIS</b><br>
 <pre>
 /&#42&#42
 &#42 fork() - creates a child processthat will run con-currently with the parent process
@@ -15,7 +16,6 @@ same CPU registers, same open files which use in the parent process.</p>
 &#42 Return: On success, the PID of the child proces is returned in the parent, and 0 is returned in the child.
 &#42 On faliure, -1 is returned in the parent, no child process is created, and errno is set appropriately.
 &#42/
-<b>SYNOPSIS</b><br>
 &#9;#include &ltsys/types.h&gt
 &#9;#include &ltunistd.h&gt<br>
 &#9;pid_t fork(void)<br>
