@@ -11,12 +11,13 @@
 int main(void)
 {
 	int id = fork();
+	int n, i;
+
 	if (id == 0)
-	{
-		printf("Child process\n");
-	} else
-	{
-		printf("Main process\n");
-	}
+		n = 1;
+	else
+		n = 6;
+	for (i = n; i < n + 5; i++)
+		printf("%d\n", i);
 	return (0);
 }
